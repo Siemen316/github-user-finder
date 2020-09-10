@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+  padding: 0.1rem;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mt {
+  border-radius: 10px;
+  padding: 1rem;
+  display: inline;
+  background-color: #f0f0f0;
+  font-size: 1.1rem;
+}
+
+#form {
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  margin: 5rem auto;
+  background-color: #fff;
+}
+#btn {
+  font-size: 1rem;
+  margin-top: 0.6rem;
+  outline: none;
+  border: none;
+  width: 5rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 4px;
+  background-color: hsl(217deg 99% 65%);
+}
+
+#txt {
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 1.4rem;
+  /* padding: 0.5rem; */
+  width: 15rem;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  width: 38rem;
+  margin: 7rem auto;
+  background-color: #fff;
+  padding: 1rem;
+}
+.infos {
+  font-size: 1.1rem;
+}
+img {
+  height: 230px;
+}
+.fas {
+  font-size: 12rem;
+}
+h3 {
+  text-align: center;
+}
+@media (max-width: 650px) {
+  .mt {
+    font-size: 0.8rem;
+  }
+  .card {
+    grid-template-columns: 1fr;
+    width: 20rem;
+  }
+  #form {
+    width: 19rem;
+  }
+  #btn {
+    width: 7rem;
+    padding: 0.5rem;
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+}
