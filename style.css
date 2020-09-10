@@ -80,6 +80,12 @@ img {
 h3 {
   text-align: center;
 }
+footer {
+  text-align: center;
+  padding: 0.1rem;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
 @media (max-width: 650px) {
   .mt {
     font-size: 0.8rem;
